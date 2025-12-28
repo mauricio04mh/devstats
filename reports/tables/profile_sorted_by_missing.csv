@@ -1,0 +1,115 @@
+column,dtype,missing_%,unique,qid,question,force_resp,question_type,selector
+Check,object,0.0,1,QID341,Just checking to make sure you are paying attention to the survey questions. Select ‘Apples’ from the list and you can get back to the survey.*<br><br>,True,MC,SAVR
+MainBranch,object,0.0,5,QID2,"Which of the following options best describes you today? For the purpose of this survey, a developer is ""someone who writes code"".*",True,MC,SAVR
+Age,object,0.0,8,QID127,What is your age?*,True,MC,SAVR
+Employment,object,0.0,110,QID296,Which of the following best describes your current employment status? Select all that apply.*,True,MC,MAVR
+ResponseId,int64,0.0,65437,,,,,
+AISelect,object,6.92,3,QID314,Do you currently use AI tools in your development process? *,True,MC,SAVR
+EdLevel,object,7.11,8,QID25,Which of the following best describes the highest level of formal education that you’ve completed? *,True,MC,SAVR
+LearnCode,object,7.56,418,QID276,How do you learn to code? Select all that apply.,False,MC,MAVR
+NEWSOSites,object,7.87,32,QID266,Which of the following Stack Overflow sites have you visited? Select all that apply. *,True,MC,MAVR
+YearsCode,object,8.51,52,QID32,"Including any education, how many years have you been coding in total?",False,MC,DL
+LanguageHaveWorkedWith,object,8.7,23864,,,,,
+SOAccount,object,8.98,3,QID101,Do you have a Stack Overflow account?,False,MC,SAVR
+SOVisitFreq,object,9.02,5,QID100,How frequently would you say you visit Stack Overflow?,False,MC,SAVR
+DevType,object,9.16,34,QID31,"Which of the following describes your current job, the one you do most of the time? Please select only one.",False,MC,SAVR
+SOComm,object,9.59,6,QID106,Do you consider yourself a member of the Stack Overflow community?,False,MC,SAVR
+SOHow,object,9.9,111,QID334,How do you use Stack Overflow?  Select all that apply.,False,MC,MAVR
+Country,object,9.94,185,QID6,"Where do you live? <span style=""font-weight: bolder;"">*</span>",True,MC,DL
+OpSysPersonal use,object,11.1,2488,,,,,
+NEWCollabToolsHaveWorkedWith,object,11.99,14168,,,,,
+SurveyEase,object,14.06,3,QID133,How easy or difficult was this survey to complete?,False,MC,MAVR
+SurveyLength,object,14.14,3,QID132,How do you feel about the length of the survey this year?,False,MC,MAVR
+LanguageWantToWorkWith,object,14.8,22769,,,,,
+OfficeStackSyncHaveWorkedWith,object,15.12,5049,,,,,
+RemoteWork,object,16.25,3,QID308,Which best describes your current work situation?,False,MC,SAVR
+CodingActivities,object,16.77,118,QID297,Which of the following best describes the code you write outside of work? Select all that apply.,False,MC,MAVR
+OpSysProfessional use,object,19.05,2032,,,,,
+ToolsTechHaveWorkedWith,object,19.8,19883,,,,,
+NEWCollabToolsWantToWorkWith,object,20.4,9751,,,,,
+YearsCodePro,object,21.13,52,QID34,"NOT including education, how many years have you coded professionally (as a part of your work)?",False,MC,DL
+LanguageAdmired,object,22.26,12335,,,,,
+NEWCollabToolsAdmired,object,22.5,7545,,,,,
+DatabaseHaveWorkedWith,object,23.2,9050,,,,,
+LearnCodeOnline,object,24.76,10853,QID281,What online resources do you use to learn to code? Select all that apply.,False,MC,MAVR
+OfficeStackAsyncHaveWorkedWith,object,26.5,6014,,,,,
+OrgSize,object,27.44,10,QID29,"Approximately how many people are employed by the company or organization you currently work for?  This should only include your primary company, and not the entire holding or parent company if that applies.",False,MC,SAVR
+PurchaseInfluence,object,27.55,3,QID278,"What level of influence do you, personally, have over new technology purchases at your organization?",False,MC,SAVR
+OfficeStackSyncWantToWorkWith,object,28.62,3205,,,,,
+Currency,object,28.66,142,QID50,"Which currency do you use day-to-day? If your answer is complicated, please pick the one you're most comfortable estimating in. *",True,MC,DL
+ToolsTechWantToWorkWith,object,29.58,16549,,,,,
+AISent,object,29.9,6,QID315,How favorable is your stance on using AI tools as part of your development workflow?,False,MC,SAVR
+SOPartFreq,object,30.87,6,QID102,"How frequently would you say you participate in Q&amp;A on Stack Overflow? By participate we mean ask, answer, vote for, or comment on questions.",False,MC,SAVR
+BuyNewTool,object,30.95,215,QID279,"When buying a new tool or software, how do you discover and research available solutions? Select all that apply.",False,MC,MAVR
+WebframeHaveWorkedWith,object,30.99,12235,,,,,
+OfficeStackSyncAdmired,object,31.67,2555,,,,,
+AIThreat,object,31.71,3,QID338,Do you believe AI is a threat to your current job?,False,MC,SAVR
+TBranch,object,32.03,2,QID299,"<span style=""font-size:16px;"">Would you like to participate in the Professional Developer Series? *</span>",True,MC,SAVR
+AISearchDevHaveWorkedWith,object,32.07,2663,,,,,
+ToolsTechAdmired,object,32.76,11804,,,,,
+TechEndorse,object,33.27,386,QID335,What product feature do you care about most when endorsing a technology purchase? Select all that apply.,False,MC,MAVR
+BuildvsBuy,object,33.74,3,QID330,"When asked to provide a recommendation for solving a problem at work with a new tool or software, what has been your most recent choice of the following?",False,MC,SAVR
+DatabaseWantToWorkWith,object,34.96,8478,,,,,
+PlatformHaveWorkedWith,object,35.26,5467,,,,,
+AIEthics,object,36.51,126,QID339,Which AI ethical responsibilities are most important to you?  Select all that apply.,False,MC,MAVR
+TechDoc,object,37.5,113,QID331,What is the source of the technical documentation you use most often to learn to code?  Select all that apply.,False,MC,MAVR
+MiscTechHaveWorkedWith,object,39.72,9288,,,,,
+OfficeStackAsyncWantToWorkWith,object,40.45,3801,,,,,
+DatabaseAdmired,object,41.08,4051,,,,,
+WebframeWantToWorkWith,object,41.11,11654,,,,,
+AIChallenges,object,42.65,232,QID346,What are the challenges to your company/whole team using AI code assistants or GenAI tools? Select all that apply.,False,MC,MAVR
+AIAcc,object,43.0,5,QID316,How much do you trust the accuracy of the output from AI tools as part of your development workflow?,False,MC,SAVR
+OfficeStackAsyncAdmired,object,43.15,2661,,,,,
+AIComplex,object,43.42,5,QID343,How well do the AI tools you use in your development workflow handle complex tasks?,False,MC,SAVR
+AIBen,object,43.62,113,QID324,"For the AI tools you use as part of your development workflow, what are the MOST important benefits you are hoping to achieve? Please check all that apply.",False,MC,MAVR
+AISearchDevWantToWorkWith,object,43.91,2361,,,,,
+AISearchDevAdmired,object,45.68,1488,,,,,
+AIToolCurrently Using,object,46.4,1310,,,,,
+WebframeAdmired,object,46.6,5460,,,,,
+PlatformWantToWorkWith,object,47.23,4784,,,,,
+CompTotal,float64,48.44,3337,QID51,"What is your current total <b>annual</b> compensation (salary, bonuses, and perks, before taxes and deductions)? Please enter a whole number in the box below, without any punctuation.  If you are paid hourly, please estimate an equivalent yearly salary. If you prefer not to answer, please leave the box empty. ",False,TE,SL
+MiscTechWantToWorkWith,object,49.62,10263,,,,,
+PlatformAdmired,object,52.05,2556,,,,,
+AIToolInterested in Using,object,53.1,1949,,,,,
+ICorPM,object,54.46,2,QID287,Are you an individual contributor or people manager?,False,MC,SAVR
+WorkExp,float64,54.68,51,QID288,How many years of working experience do you have?,False,Slider,HSLIDER
+MiscTechAdmired,object,54.77,4917,,,,,
+JobSatPoints_10,float64,54.99,75,QID337,Working with new and/or top-quality hardware,,MC,MAVR
+JobSatPoints_9,float64,54.99,85,QID337,"Being a power user of a tool, developer language or process that others come to for answers and guidance about",,MC,MAVR
+JobSatPoints_8,float64,54.99,89,QID337,"Designing and building environments, databases, and all things architecture",,MC,MAVR
+JobSatPoints_6,float64,54.99,93,QID337,Improving quality of code and developer environments,,MC,MAVR
+JobSatPoints_11,float64,55.0,79,QID337,A well-staffed/sourced internal network that makes observability easy so network or runtime issues are addressed and fixed easily,,MC,MAVR
+JobSatPoints_7,float64,55.0,91,QID337,"Learning and using new technology, including platforms, APIs and libraries",,MC,MAVR
+JobSatPoints_5,float64,55.05,78,QID337,Securing data and environments,,MC,MAVR
+JobSatPoints_4,float64,55.08,72,QID337,Contributing to open source,,MC,MAVR
+JobSatPoints_1,float64,55.19,91,QID337,Driving strategy for my team,,MC,MAVR
+JobSat,float64,55.49,11,QID336,How satisfied are you in your current professional developer role?,False,MC,NPS
+TimeSearching,object,55.82,5,QID291,"On an average day, how much time do you typically spend searching for answers or solutions to problems you encounter at work? (This includes time spent searching on your own, asking a colleague, and waiting for a response).",False,MC,SAVR
+Industry,object,55.9,15,QID326,What industry is the company you work for in?,False,MC,SAVR
+TimeAnswering,object,55.92,5,QID292,"On an average day, how much time do you typically spend answering questions you get asked at work?",False,MC,SAVR
+ProfessionalQuestion,object,55.98,9,QID333,"When you have a technical question at work, where do you first go to get an answer?",False,MC,SAVR
+Knowledge_1,object,56.2,5,QID289,I have interactions with people outside of my immediate team.,,MC,MAVR
+ProfessionalCloud,object,56.46,3,QID332,"At my company, our applications, databases and services are hosted:",False,MC,SAVR
+Frequency_2,object,56.65,5,QID290,Interacting with people outside of your immediate team?,,MC,MAVR
+Frequency_1,object,56.65,5,QID290,Needing help from people outside of your immediate team?,,MC,MAVR
+Frustration,object,56.83,954,QID342,Which of these company challenges causes you the most frustration? Select all that apply.,False,MC,MAVR
+Knowledge_3,object,57.07,5,QID289,I can find up-to-date information within my organization to help me do my job.,,MC,MAVR
+Knowledge_4,object,57.16,5,QID289,I am able to quickly find answers to my questions with existing tools and resources.,,MC,MAVR
+Knowledge_2,object,57.18,5,QID289,"Knowledge silos prevent me from getting ideas across the organization (i.e., one individual or team has information that isn't shared with others)",,MC,MAVR
+Knowledge_5,object,57.39,5,QID289,I know which system or resource to use to find information and answers to questions I have.,,MC,MAVR
+Knowledge_6,object,57.42,5,QID289,I often find myself answering questions that I’ve already answered before.,,MC,MAVR
+Knowledge_7,object,57.55,5,QID289,Waiting on answers to questions often causes interruptions and disrupts my workflow.,,MC,MAVR
+ProfessionalTech,object,57.57,514,QID304,My company has:,False,MC,MAVR
+Knowledge_8,object,57.58,5,QID289,I feel like I have the tools and/or resources to quickly understand and work on any area of my company's code/system/platform.,,MC,MAVR
+Frequency_3,object,57.65,5,QID290,Encountering knowledge silos (where one individual or team has information that's not shared or distributed with other individuals or teams) at work?,,MC,MAVR
+Knowledge_9,object,57.77,5,QID289,I have asked my employer to reimburse me for tools or a product that helps me do my job better or faster,,MC,MAVR
+AINextMore integrated,object,62.67,884,,,,,
+AIToolNot interested in Using,object,62.69,1531,,,,,
+ConvertedCompYearly,float64,64.19,6113,,,,,
+EmbeddedHaveWorkedWith,object,66.05,1630,,,,,
+EmbeddedWantToWorkWith,object,73.1,1471,,,,,
+EmbeddedAdmired,object,74.43,1053,,,,,
+AINextMuch more integrated,object,79.46,700,,,,,
+AINextNo change,object,80.9,539,,,,,
+AINextLess integrated,object,96.4,249,,,,,
+AINextMuch less integrated,object,98.25,286,,,,,
