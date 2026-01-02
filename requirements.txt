@@ -4,5 +4,6 @@ kagglehub
 scipy
 ipykernel
 matplotlib
-seaborn
 statsmodels
+seaborn
+pingouin
