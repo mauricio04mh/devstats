@@ -2,13 +2,12 @@
 
 Este proyecto está diseñado para analizar las estadísticas de desarrolladores a partir de la encuesta anual de Stack Overflow.
 
-## 🚀 Guía de Inicio Rápido
 
-Sigue estos pasos para configurar el entorno y obtener los datos necesarios para el análisis.
+## Pasos para configurar el entorno y obtener los datos necesarios para el análisis.
 
 ### 1. Instalación de Dependencias
 
-Asegúrate de tener Python instalado. Luego, instala las librerías necesarias ejecutando:
+El sistema que ejecute el proyecto debe tener python instalado:
 
 ```bash
 pip install -r requirements.txt
