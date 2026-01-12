@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<rect width="1200" height="700" fill="#ffffff" />
+<text x="600" y="48" text-anchor="middle" font-size="28" font-family="'Times New Roman', serif" fill="#1e3a5f">Tabla Median/Mean salary_est (USD)</text>
+<rect x="60" y="80" width="1080" height="56" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="2" />
+<text x="320" y="116" text-anchor="middle" font-size="22" font-family="'Times New Roman', serif" fill="#1e293b">Cluster</text>
+<text x="680" y="116" text-anchor="middle" font-size="22" font-family="'Times New Roman', serif" fill="#1e293b">Median</text>
+<text x="880" y="116" text-anchor="middle" font-size="22" font-family="'Times New Roman', serif" fill="#1e293b">Mean</text>
+<text x="1070" y="116" text-anchor="middle" font-size="22" font-family="'Times New Roman', serif" fill="#1e293b">SD</text>
+<rect x="60" y="136" width="1080" height="70" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" />
+<text x="76" y="179" text-anchor="start" font-size="20" font-family="'Times New Roman', serif" fill="#0f172a">Python Backend/Data + Cloud</text>
+<text x="680" y="179" text-anchor="middle" font-size="20" font-family="'Times New Roman', serif" fill="#0f172a">$75,557</text>
+<text x="880" y="179" text-anchor="middle" font-size="20" font-family="'Times New Roman', serif" fill="#0f172a">$99,203</text>
+<text x="1070" y="179" text-anchor="middle" font-size="20" font-family="'Times New Roman', serif" fill="#0f172a">—</text>
+<rect x="60" y="206" width="1080" height="70" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+<text x="76" y="249" text-anchor="start" font-size="20" font-family="'Times New Roman', serif" fill="#0f172a">.NET / Microsoft Enterprise</text>
+<text x="680" y="249" text-anchor="middle" font-size="20" font-family="'Times New Roman', serif" fill="#0f172a">$69,814</text>
+<text x="880" y="249" text-anchor="middle" font-size="20" font-family="'Times New Roman', serif" fill="#0f172a">$82,008</text>
+<text x="1070" y="249" text-anchor="middle" font-size="20" font-family="'Times New Roman', serif" fill="#0f172a">—</text>
+<rect x="60" y="276" width="1080" height="70" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" />
+<text x="76" y="319" text-anchor="start" font-size="20" font-family="'Times New Roman', serif" fill="#0f172a">Systems / Low-level + Python</text>
+<text x="680" y="319" text-anchor="middle" font-size="20" font-family="'Times New Roman', serif" fill="#0f172a">$69,408</text>
+<text x="880" y="319" text-anchor="middle" font-size="20" font-family="'Times New Roman', serif" fill="#0f172a">$100,731</text>
+<text x="1070" y="319" text-anchor="middle" font-size="20" font-family="'Times New Roman', serif" fill="#0f172a">—</text>
+<rect x="60" y="346" width="1080" height="70" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+<text x="76" y="389" text-anchor="start" font-size="20" font-family="'Times New Roman', serif" fill="#0f172a">Java/Spring Backend</text>
+<text x="680" y="389" text-anchor="middle" font-size="20" font-family="'Times New Roman', serif" fill="#0f172a">$63,694</text>
+<text x="880" y="389" text-anchor="middle" font-size="20" font-family="'Times New Roman', serif" fill="#0f172a">$81,287</text>
+<text x="1070" y="389" text-anchor="middle" font-size="20" font-family="'Times New Roman', serif" fill="#0f172a">—</text>
+<rect x="60" y="416" width="1080" height="70" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" />
+<text x="76" y="459" text-anchor="start" font-size="20" font-family="'Times New Roman', serif" fill="#0f172a">Modern JS Fullstack (React/Node)</text>
+<text x="680" y="459" text-anchor="middle" font-size="20" font-family="'Times New Roman', serif" fill="#0f172a">$56,000</text>
+<text x="880" y="459" text-anchor="middle" font-size="20" font-family="'Times New Roman', serif" fill="#0f172a">$73,845</text>
+<text x="1070" y="459" text-anchor="middle" font-size="20" font-family="'Times New Roman', serif" fill="#0f172a">—</text>
+<rect x="60" y="80" width="1080" height="406" fill="none" stroke="#cbd5e1" stroke-width="2" />
+</svg>

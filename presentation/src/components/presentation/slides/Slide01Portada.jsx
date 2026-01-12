@@ -25,7 +25,7 @@ export default function Slide01Portada({ totalSlides, slideNumber }) {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 flex flex-col justify-center items-center min-h-[calc(100vh-120px)] px-8 py-12 text-center">
+      <div className="relative z-10 flex flex-col justify-center items-center min-h-[calc(100vh-120px)] px-8 py-12 pb-28 text-center">
         {/* Logo/Badge */}
         <div className="mb-8">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 rounded-full border border-white/20">
