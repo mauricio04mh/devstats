@@ -12,7 +12,6 @@ export default function Slide05EDA1({ totalSlides, slideNumber }) {
       totalSlides={totalSlides}
       title="EDA — Distribución Salarial"
       subtitle="Análisis exploratorio de salario y justificación de la transformación logarítmica"
-      technicalNote="La distribución salarial presenta colas largas típicas de datos de ingresos. La transformación logarítmica log(1 + salary) reduce la asimetría, estabiliza la varianza y facilita la interpretación multiplicativa de los coeficientes de regresión."
     >
       <div className="space-y-6">
         {/* Salary Stats */}
@@ -49,7 +48,7 @@ export default function Slide05EDA1({ totalSlides, slideNumber }) {
             <ul className="space-y-3 text-base">
               <li className="flex items-start gap-2">
                 <span className="text-amber-500 font-bold text-lg">→</span>
-                <span><strong>Asimetría positiva:</strong> cola derecha extendida</span>
+                <span><strong>Asimetría positiva:</strong> cola extendida</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-amber-500 font-bold text-lg">→</span>
@@ -74,7 +73,7 @@ export default function Slide05EDA1({ totalSlides, slideNumber }) {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-emerald-500 font-bold text-lg">✓</span>
-                <span>Estabiliza la varianza (homocedasticidad)</span>
+                <span>Estabiliza la varianza</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-emerald-500 font-bold text-lg">✓</span>
@@ -82,7 +81,7 @@ export default function Slide05EDA1({ totalSlides, slideNumber }) {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-emerald-500 font-bold text-lg">✓</span>
-                <span>Práctica estándar en economía laboral</span>
+                <span>Práctica estándar en análisis de este tipo</span>
               </li>
             </ul>
           </ContentCard>

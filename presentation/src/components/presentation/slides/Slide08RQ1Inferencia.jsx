@@ -10,24 +10,14 @@ export default function Slide08RQ1Inferencia({ totalSlides, slideNumber }) {
   const testsRows = [
     ['ANOVA clásico', 'F ≈ 228.98', '3.28e−99', '—', 'Homocedasticidad, normalidad'],
     ['Welch ANOVA', 'F ≈ 202.71', '4.48e−87', 'ηp² ≈ 0.019', 'No requiere homocedasticidad'],
-    ['Kruskal–Wallis', 'H ≈ 771.46', '3.01e−168', '—', 'No paramétrico'],
   ];
 
-  const postHocHeaders = ['Comparación', 'Δ log_salary', 'IC 95%', '% Cambio', 'Significativo'];
+  const postHocHeaders = ['Comparación', 'Δ log_salary', '% Cambio', 'Significativo'];
   const postHocRows = [
-    ['Remote vs In-person', '≈ +0.510', 'Editable', '~+66.6%', '✓ Sí'],
-    ['Hybrid vs In-person', '≈ +0.528', 'Editable', '~+69.5%', '✓ Sí'],
-    ['Hybrid vs Remote', '≈ +0.018', 'Editable', '~+1.8%', '✗ No sig.'],
+    ['Remote vs In-person', '≈ +0.510', '~+66.6%', '✓ Sí'],
+    ['Hybrid vs In-person', '≈ +0.528', '~+69.5%', '✓ Sí'],
+    ['Hybrid vs Remote', '≈ +0.018', '~+1.8%', '✗ No sig.'],
   ];
-  const diagnosticsHeaders = ['Test', 'Statistic', 'p-value', 'Decision'];
-  const diagnosticsRows = [
-    ['Shapiro-Wilk (residuos)', '0.819535', '1.157828e-59', 'Rechazar H0'],
-    ['Levene/Brown-Forsythe (median)', '125.783335', '4.615799e-55', 'Rechazar H0'],
-    ['ANOVA clásico', '228.977542', '3.280390e-99', 'Rechazar H0'],
-    ['Welch ANOVA', '202.713616', '4.482265e-87', 'Rechazar H0'],
-    ['Kruskal-Wallis', '771.462409', '3.013467e-168', 'Rechazar H0'],
-  ];
-
   return (
     <SlideLayout
       slideNumber={slideNumber}
@@ -92,27 +82,6 @@ export default function Slide08RQ1Inferencia({ totalSlides, slideNumber }) {
           </div>
         </ContentCard>
 
-        {/* Placeholders */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <ContentCard title="Tabla: Pruebas + Supuestos" icon={BarChart3} variant="primary">
-            <DataTable
-              headers={diagnosticsHeaders}
-              rows={diagnosticsRows}
-              caption="Resumen de pruebas de supuestos y contraste global."
-              compact
-            />
-          </ContentCard>
-          <figure className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
-            <img
-              src="/forest_plot_salary_differences.png"
-              alt="Forest plot de diferencias salariales entre modalidades"
-              className="w-full h-full object-contain bg-slate-50"
-            />
-            <figcaption className="px-4 py-3 text-sm text-slate-700 bg-slate-50 border-t">
-              Forest plot de diferencias en log_salary con IC95% entre modalidades.
-            </figcaption>
-          </figure>
-        </div>
       </div>
     </SlideLayout>
   );

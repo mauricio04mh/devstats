@@ -45,16 +45,16 @@ export default function Slide03DatasetProcesado({ totalSlides, slideNumber }) {
           <ContentCard title="Dataset Resultante" icon={Database} variant="default">
             <div className="space-y-3">
               <div className="flex items-center justify-between p-2 bg-slate-50 rounded-lg">
-                <span className="text-base text-slate-700">Total columnas</span>
-                <span className="font-bold text-lg text-[#1e3a5f]">20</span>
-              </div>
-              <div className="flex items-center justify-between p-2 bg-slate-50 rounded-lg">
                 <span className="text-base text-slate-700">Variables base</span>
                 <span className="font-bold text-lg text-[#1e3a5f]">17</span>
               </div>
               <div className="flex items-center justify-between p-2 bg-slate-50 rounded-lg">
                 <span className="text-base text-slate-700">Variables derivadas</span>
-                <span className="font-bold text-lg text-amber-600">3</span>
+                <span className="font-bold text-lg text-[#1e3a5f]">3</span>
+              </div>
+              <div className="flex items-center justify-between p-2 bg-slate-50 rounded-lg">
+                <span className="text-base text-slate-700">Total</span>
+                <span className="font-bold text-lg text-amber-600">20</span>
               </div>
             </div>
           </ContentCard>

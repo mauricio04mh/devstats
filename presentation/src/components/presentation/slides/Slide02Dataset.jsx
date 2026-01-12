@@ -7,7 +7,7 @@ export default function Slide02Dataset({ totalSlides, slideNumber }) {
   const researchQuestions = [
     {
       id: 'RQ1',
-      title: '¿Difiere log_salary según modalidad de trabajo?',
+      title: '¿Difiere el salario según modalidad de trabajo?',
       method: 'Contraste de grupos (ANOVA, Welch, Kruskal-Wallis)',
       variables: ['RemoteWork', 'log_salary'],
       color: 'from-blue-500 to-blue-600',
@@ -23,7 +23,7 @@ export default function Slide02Dataset({ totalSlides, slideNumber }) {
       id: 'RQ3',
       title: '¿Existen perfiles tecnológicos con salarios distintos?',
       method: 'K-Means Clustering + Kruskal-Wallis post-hoc',
-      variables: ['*HaveWorkedWith', 'log_salary'],
+      variables: ['*HaveWorkedWith'],
       color: 'from-amber-500 to-orange-500',
     },
   ];
@@ -44,7 +44,7 @@ export default function Slide02Dataset({ totalSlides, slideNumber }) {
             <p className="text-slate-500 mt-1">Encuesta anual a desarrolladores</p>
           </ContentCard>
           
-          <ContentCard title="Datos Crudos (Raw)" icon={Code} variant="default">
+          <ContentCard title="Datos Crudos" icon={Code} variant="default">
             <div className="space-y-1">
               <p><span className="font-semibold">N =</span> 65,437 observaciones</p>
               <p><span className="font-semibold">P =</span> 114 variables</p>

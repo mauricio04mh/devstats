@@ -45,7 +45,7 @@ export default function Slide01Portada({ totalSlides, slideNumber }) {
 
         {/* Subtitle */}
         <p className="text-lg md:text-xl text-blue-200/90 max-w-3xl mb-8 font-light leading-relaxed">
-          Modalidad de trabajo, salario y perfiles tecnológicos
+          Salarios, modalidad de trabajo y perfiles tecnológicos
         </p>
 
         {/* Technical Focus */}
@@ -69,7 +69,7 @@ export default function Slide01Portada({ totalSlides, slideNumber }) {
               <p className="text-white font-medium">Mauricio Medina Hernández</p>
             </div>
           </div>
-          <p className="text-blue-200/60 text-sm mt-4">Curso: C-312</p>
+          <p className="text-blue-200/60 text-sm mt-4">Curso: C-3</p>
         </div>
 
         {/* Agenda */}
