@@ -2,7 +2,6 @@ import React from 'react';
 import SlideLayout from '../SlideLayout';
 import ContentCard from '../ContentCard';
 import { NestedBulletList } from '../BulletList';
-import PlaceholderChart from '../PlaceholderChart';
 import { CheckCircle, AlertTriangle, Lightbulb, Target } from 'lucide-react';
 
 export default function Slide13Conclusiones({ totalSlides, slideNumber }) {
@@ -130,14 +129,16 @@ export default function Slide13Conclusiones({ totalSlides, slideNumber }) {
           </div>
         </ContentCard>
 
-        {/* Placeholder */}
-        <PlaceholderChart
-          label="Diagrama Final: RQ1/RQ2/RQ3 + Limitaciones + Next Steps"
-          description="Diagrama visual de síntesis mostrando las tres preguntas de investigación con sus hallazgos principales, las limitaciones del estudio, y las direcciones futuras de mejora metodológica."
-          type="flow"
-          variables={['RQ1', 'RQ2', 'RQ3', 'Limitaciones', 'Extensiones']}
-          size="large"
-        />
+        <figure className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
+          <img
+            src="/final_diagram.svg"
+            alt="Diagrama final de síntesis RQ1, RQ2, RQ3, limitaciones y extensiones"
+            className="w-full h-full object-contain bg-slate-50"
+          />
+          <figcaption className="px-4 py-3 text-sm text-slate-700 bg-slate-50 border-t">
+            Síntesis visual de RQ1/RQ2/RQ3 con limitaciones y próximas extensiones.
+          </figcaption>
+        </figure>
       </div>
     </SlideLayout>
   );

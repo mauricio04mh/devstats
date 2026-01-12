@@ -2,7 +2,6 @@ import React from 'react';
 import SlideLayout from '../SlideLayout';
 import ContentCard from '../ContentCard';
 import DataTable from '../DataTable';
-import PlaceholderChart from '../PlaceholderChart';
 import { BarChart3, Trophy, ArrowUpRight } from 'lucide-react';
 
 export default function Slide13RQ3Salarios({ totalSlides, slideNumber }) {
@@ -51,27 +50,36 @@ export default function Slide13RQ3Salarios({ totalSlides, slideNumber }) {
         </ContentCard>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <PlaceholderChart
-            label="Barplot Tamaños por Cluster"
-            description="Frecuencia absoluta de desarrolladores en cada cluster tecnológico."
-            type="bar"
-            variables={['Cluster', 'n']}
-            size="medium"
-          />
-          <PlaceholderChart
-            label="Boxplot log_salary por Cluster"
-            description="Distribución de log_salary para cada perfil tecnológico, mostrando mediana, IQR y outliers."
-            type="bar"
-            variables={['Cluster', 'log_salary']}
-            size="medium"
-          />
-          <PlaceholderChart
-            label="Tabla Median/Mean salary_est"
-            description="Estadísticos descriptivos de salario estimado (USD) por cluster."
-            type="table"
-            variables={['Cluster', 'Median', 'Mean', 'SD']}
-            size="medium"
-          />
+          <figure className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
+            <img
+              src="/barplot_cluster_sizes.svg"
+              alt="Barplot de tamaños por cluster"
+              className="w-full h-full object-contain bg-slate-50"
+            />
+            <figcaption className="px-4 py-3 text-sm text-slate-700 bg-slate-50 border-t">
+              Barplot tamaños por cluster — frecuencia absoluta de desarrolladores.
+            </figcaption>
+          </figure>
+          <figure className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
+            <img
+              src="/boxplot_log_salary_cluster.png"
+              alt="Boxplot de log_salary por cluster"
+              className="w-full h-full object-contain bg-slate-50"
+            />
+            <figcaption className="px-4 py-3 text-sm text-slate-700 bg-slate-50 border-t">
+              Boxplot log_salary por cluster — mediana, IQR y outliers.
+            </figcaption>
+          </figure>
+          <figure className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
+            <img
+              src="/tabla_salary_est.svg"
+              alt="Tabla de medianas y medias de salary_est por cluster"
+              className="w-full h-full object-contain bg-slate-50"
+            />
+            <figcaption className="px-4 py-3 text-sm text-slate-700 bg-slate-50 border-t">
+              Tabla Median/Mean salary_est — estadísticos descriptivos por cluster (USD).
+            </figcaption>
+          </figure>
         </div>
       </div>
     </SlideLayout>
